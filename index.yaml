@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  vcluster:
+  - apiVersion: v2
+    appVersion: 0.26.1
+    created: "2025-08-05T21:49:25.454030845Z"
+    description: vcluster - Virtual Kubernetes Clusters
+    digest: 6fae2f8b92a92f2d7e0984248ee1bc5bb85853749b2f6806dc9ebb4ba74ab79d
+    home: https://vcluster.com
+    icon: https://static.loft.sh/branding/logos/vcluster/vertical/vcluster_vertical.svg
+    keywords:
+    - developer
+    - development
+    - sharing
+    - share
+    - multi-tenancy
+    - tenancy
+    - cluster
+    - space
+    - namespace
+    - vcluster
+    - vclusters
+    maintainers:
+    - email: info@loft.sh
+      name: Loft Labs, Inc.
+      url: https://twitter.com/loft_sh
+    - email: developer@brendanprice.me
+      name: Brendan Price
+    name: vcluster
+    sources:
+    - https://github.com/loft-sh/vcluster
+    type: application
+    urls:
+    - https://github.com/cbrendanprice/vcluster/releases/download/vcluster-0.26.1/vcluster-0.26.1.tgz
+    version: 0.26.1
+generated: "2025-08-05T21:49:25.454037217Z"
