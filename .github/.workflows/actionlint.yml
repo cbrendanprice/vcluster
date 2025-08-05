@@ -3,7 +3,7 @@ name: Workflow Linting
 on:
   pull_request:
     paths:
-      - ".github/workflows/**"
+      - "/**"
 
 permissions:
   contents: read

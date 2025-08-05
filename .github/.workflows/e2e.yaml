@@ -15,7 +15,7 @@ on:
       - "test/**" # include test files in e2e again
       - "!**.md"
       - "Dockerfile.release"
-      - ".github/workflows/e2e.yaml"
+      - "/e2e.yaml"
       - "chart/**"
       - "manifests/**"
   workflow_dispatch:

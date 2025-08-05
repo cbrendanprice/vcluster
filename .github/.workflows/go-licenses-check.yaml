@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - .github/workflows/go-licenses-check.yaml
+      - /go-licenses-check.yaml
       - go.mod
   workflow_dispatch:
 

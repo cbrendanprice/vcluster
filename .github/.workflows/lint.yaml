@@ -9,7 +9,7 @@ on:
       - go.mod
       - go.sum
       - "**.go"
-      - ".github/workflows/lint.yaml"
+      - "/lint.yaml"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}

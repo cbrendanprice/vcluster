@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - .github/licenses.tmpl
-      - .github/workflows/go-licenses.yaml
+      - /go-licenses.yaml
       - go.mod
   workflow_dispatch:
 
